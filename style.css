@@ -1,0 +1,84 @@
+#slider-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 300px;
+    z-index: 1;
+} 
+
+#sidebar {
+    padding-right: 0px;
+}
+
+.header {
+    height: 100px;
+}
+
+.main {
+    height: 600px;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    height: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+} 
+
+.about {
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+}
+
+.about text {
+    width: 550px;
+}
+
+#mainabout {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about h1 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+#card1 {
+    background-color: rgb(251, 246, 246);
+}
+
+section {
+    background-image: url(images/about_1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
